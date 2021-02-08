@@ -1,0 +1,287 @@
+[2021-02-07 13:59:34.181] [exthost] [info] extension host started
+[2021-02-07 13:59:34.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-02-07 13:59:34.243] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-02-07 13:59:34.254] [exthost] [info] ExtensionService#_doActivateExtension ms-dotnettools.csharp {"startup":false,"extensionId":{"value":"ms-dotnettools.csharp","_lower":"ms-dotnettools.csharp"},"activationEvent":"onLanguage:csharp"}
+[2021-02-07 13:59:34.254] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-dotnettools.csharp-1.23.9/dist/extension
+[2021-02-07 13:59:34.366] [exthost] [info] ExtensionService#_doActivateExtension jchannon.csharpextensions {"startup":false,"extensionId":{"value":"jchannon.csharpextensions","_lower":"jchannon.csharpextensions"},"activationEvent":"onLanguage:csharp"}
+[2021-02-07 13:59:34.366] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/extension
+[2021-02-07 13:59:34.868] [exthost] [info] ExtensionService#_doActivateExtension k--kato.docomment {"startup":false,"extensionId":{"value":"k--kato.docomment","_lower":"k--kato.docomment"},"activationEvent":"onLanguage:csharp"}
+[2021-02-07 13:59:34.868] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/k--kato.docomment-0.1.20/out/src/extension
+[2021-02-07 13:59:34.965] [exthost] [info] ExtensionService#_doActivateExtension kreativ-software.csharpextensions {"startup":false,"extensionId":{"value":"kreativ-software.csharpextensions","_lower":"kreativ-software.csharpextensions"},"activationEvent":"onLanguage:csharp"}
+[2021-02-07 13:59:34.965] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/kreativ-software.csharpextensions-1.3.6/out/src/extension
+[2021-02-07 13:59:35.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-07 13:59:35.779] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-02-07 13:59:35.781] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-07 13:59:35.781] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/git/dist/main
+[2021-02-07 13:59:35.812] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"extensionId":{"value":"vscode-icons-team.vscode-icons","_lower":"vscode-icons-team.vscode-icons"},"activationEvent":"*"}
+[2021-02-07 13:59:35.813] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/vscode-icons-team.vscode-icons-11.1.0/dist/src/vscode-icons.bundle.js
+[2021-02-07 13:59:35.872] [exthost] [error] Activating extension kreativ-software.csharpextensions failed due to an error:
+[2021-02-07 13:59:35.874] [exthost] [error] Error: command 'csharpextensions.createClass' already exists
+    at b.registerCommand (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:87254)
+    at Object.registerCommand (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:21021)
+    at activate (/root/.vscode/extensions/kreativ-software.csharpextensions-1.3.6/out/src/extension.js:21:48)
+    at Function._callActivateOptional (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:13728)
+    at Function._callActivate (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:13405)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11743
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Function.all (<anonymous>:null:null)
+
+[2021-02-07 13:59:35.878] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2021-02-07 13:59:35.878] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-02-07 13:59:35.881] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2021-02-07 13:59:35.881] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-02-07 13:59:35.889] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2021-02-07 13:59:35.889] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-02-07 13:59:35.912] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onLanguage:json"}
+[2021-02-07 13:59:35.912] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-07 13:59:36.009] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2021-02-07 13:59:36.009] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-02-07 13:59:36.025] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2021-02-07 13:59:36.025] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-02-07 13:59:36.042] [exthost] [info] ExtensionService#_doActivateExtension steoates.autoimport {"startup":false,"extensionId":{"value":"steoates.autoimport","_lower":"steoates.autoimport"},"activationEvent":"onLanguage:typescript"}
+[2021-02-07 13:59:36.042] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/steoates.autoimport-1.5.3/out/src/extension
+[2021-02-07 13:59:36.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-07 13:59:36.148] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-02-07 13:59:36.223] [exthost] [info] ExtensionService#_doActivateExtension Fudge.auto-using {"startup":false,"extensionId":{"value":"Fudge.auto-using","_lower":"fudge.auto-using"},"activationEvent":"onLanguage:csharp"}
+[2021-02-07 13:59:36.223] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/fudge.auto-using-0.7.15/out/extension.js
+[2021-02-07 13:59:36.663] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-02-07 13:59:36.663] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-02-07 13:59:37.131] [exthost] [info] eager extensions activated
+[2021-02-07 13:59:37.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-07 13:59:37.132] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-07 13:59:37.141] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-07 13:59:37.141] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-07 13:59:37.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-07 13:59:37.143] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-07 13:59:37.491] [exthost] [error] [jchannon.csharpextensions] provider FAILED
+[2021-02-07 13:59:37.491] [exthost] [error] TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:165:33)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:19:9)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143067
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+    at new Promise (<anonymous>:null:null)
+    at Object.S [as asPromise] (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+    at w.provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143038)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165342
+    at we._withAdapter (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+    at we.$provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165318)
+    at p._doInvokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+    at p._invokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+    at p._receiveRequest (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+    at p._receiveOneMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at t._receiveMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at u.acceptChunk (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+    at Socket.m (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+
+[2021-02-07 13:59:41.948] [exthost] [error] [ms-dotnettools.csharp] provider FAILED
+[2021-02-07 13:59:41.948] [exthost] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: undefined
+[2021-02-07 14:00:05.990] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2021-02-07 14:00:05.990] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/debug-server-ready/dist/extension
+[2021-02-07 14:00:05.999] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"extensionId":{"value":"vscode.grunt","_lower":"vscode.grunt"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-02-07 14:00:05.999] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/grunt/dist/main
+[2021-02-07 14:00:06.001] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"extensionId":{"value":"vscode.gulp","_lower":"vscode.gulp"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-02-07 14:00:06.001] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/gulp/dist/main
+[2021-02-07 14:00:06.003] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"extensionId":{"value":"vscode.jake","_lower":"vscode.jake"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-02-07 14:00:06.003] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/53/usr/share/code/resources/app/extensions/jake/dist/main
+[2021-02-07 14:15:27.166] [exthost] [error] [jchannon.csharpextensions] provider FAILED
+[2021-02-07 14:15:27.174] [exthost] [error] TypeError: Cannot read property 'trim' of undefined
+    at /root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:180:37
+    at Array.forEach (<anonymous>:null:null)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:177:33)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:19:9)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143067
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+    at new Promise (<anonymous>:null:null)
+    at Object.S [as asPromise] (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+    at w.provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143038)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165342
+    at we._withAdapter (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+    at we.$provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165318)
+    at p._doInvokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+    at p._invokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+    at p._receiveRequest (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+    at p._receiveOneMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at t._receiveMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at u.acceptChunk (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+    at Socket.m (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+
+[2021-02-07 14:19:57.059] [exthost] [error] [jchannon.csharpextensions] provider FAILED
+[2021-02-07 14:19:57.059] [exthost] [error] Error: Illegal value for `line`
+    at v._lineAt (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:81:1166)
+    at Object.lineAt (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:81:95)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:22:33)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143067
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+    at new Promise (<anonymous>:null:null)
+    at Object.S [as asPromise] (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+    at w.provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143038)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165342
+    at we._withAdapter (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+    at we.$provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165318)
+    at p._doInvokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+    at p._invokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+    at p._receiveRequest (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+    at p._receiveOneMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at t._receiveMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at u.acceptChunk (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+    at Socket.m (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+
+[2021-02-07 14:28:43.932] [exthost] [error] [jchannon.csharpextensions] provider FAILED
+[2021-02-07 14:28:43.932] [exthost] [error] Error: Illegal value for `line`
+    at v._lineAt (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:81:1166)
+    at Object.lineAt (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:81:95)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:22:33)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143067
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+    at new Promise (<anonymous>:null:null)
+    at Object.S [as asPromise] (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+    at w.provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143038)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165342
+    at we._withAdapter (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+    at we.$provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165318)
+    at p._doInvokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+    at p._invokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+    at p._receiveRequest (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+    at p._receiveOneMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at t._receiveMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at u.acceptChunk (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+    at Socket.m (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+
+[2021-02-07 15:20:43.284] [exthost] [error] [jchannon.csharpextensions] provider FAILED
+[2021-02-07 15:20:43.285] [exthost] [error] Error: Illegal value for `line`
+    at v._lineAt (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:81:1166)
+    at Object.lineAt (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:81:95)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:22:33)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143067
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+    at new Promise (<anonymous>:null:null)
+    at Object.S [as asPromise] (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+    at w.provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143038)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165342
+    at we._withAdapter (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+    at we.$provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165318)
+    at p._doInvokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+    at p._invokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+    at p._receiveRequest (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+    at p._receiveOneMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at t._receiveMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at u.acceptChunk (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+    at Socket.m (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+
+[2021-02-07 15:25:11.972] [exthost] [error] [jchannon.csharpextensions] provider FAILED
+[2021-02-07 15:25:11.972] [exthost] [error] Error: Illegal value for `line`
+    at v._lineAt (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:81:1166)
+    at Object.lineAt (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:81:95)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/codeActionProvider.js:22:33)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143067
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+    at new Promise (<anonymous>:null:null)
+    at Object.S [as asPromise] (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+    at w.provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:143038)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165342
+    at we._withAdapter (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+    at we.$provideCodeActions (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:165318)
+    at p._doInvokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+    at p._invokeHandler (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+    at p._receiveRequest (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+    at p._receiveOneMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at d.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+    at t._receiveMessage (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+    at v.fire (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+    at u.acceptChunk (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+    at /snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+    at Socket.m (/snap/code/53/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+
+[2021-02-07 19:12:59.377] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-02-07 19:13:00.398] [exthost] [info] exiting with code 0

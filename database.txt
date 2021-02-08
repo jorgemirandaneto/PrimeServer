@@ -1,0 +1,26 @@
+-- Drop table
+
+-- DROP TABLE master.dbo.ClientePessoaJuridica GO
+
+CREATE TABLE master.dbo.ClientePessoaJuridica (
+	id int IDENTITY(0,1) NOT NULL,
+	uf varchar(100) COLLATE Latin1_General_CI_AS NOT NULL,
+	nomeFantasia varchar(100) COLLATE Latin1_General_CI_AS NOT NULL,
+	cnpj varchar(100) COLLATE Latin1_General_CI_AS NOT NULL,
+	instituicaoFinanceira varchar(100) COLLATE Latin1_General_CI_AS NULL
+) GO
+
+
+-- Drop table
+
+-- DROP TABLE master.dbo.ClientePessoaFisica GO
+
+CREATE TABLE master.dbo.ClientePessoaFisica (
+	id int IDENTITY(1,1) NOT NULL,
+	nome varchar(100) COLLATE Latin1_General_CI_AS NOT NULL,
+	cpf varchar(100) COLLATE Latin1_General_CI_AS NOT NULL,
+	dataCriacao datetime DEFAULT getdate() NULL,
+	telefone varchar(100) COLLATE Latin1_General_CI_AS NOT NULL,
+	instituicaoFinanceira varchar(100) COLLATE Latin1_General_CI_AS NULL
+) GO
+

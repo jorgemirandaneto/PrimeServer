@@ -1,0 +1,19 @@
+Installing C# dependencies...
+Platform: linux, x86_64, name=ubuntu, version=20.04
+
+Downloading package 'OmniSharp for Linux (x64)' (47430 KB).................... Done!
+Validating download...
+Integrity Check succeeded.
+Installing package 'OmniSharp for Linux (x64)'
+
+Downloading package '.NET Core Debugger (linux / x64)' (57805 KB).................... Done!
+Validating download...
+Integrity Check succeeded.
+Installing package '.NET Core Debugger (linux / x64)'
+
+Downloading package 'Razor Language Server (Linux / x64)' (53270 KB).................... Done!
+Installing package 'Razor Language Server (Linux / x64)'
+
+Finished
+
+Failed to spawn 'dotnet --info'

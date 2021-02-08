@@ -1,0 +1,101 @@
+Starting OmniSharp server at 03/02/2021 22:01:58
+    Target: /home/jorge/Projetos/Prime
+
+OmniSharp server started.
+    Path: /root/.vscode/extensions/ms-dotnettools.csharp-1.23.9/.omnisharp/1.37.6/run
+    PID: 40018
+
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on ubuntu 20.4 (x64)
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to dotnet
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 1 MSBuild instance(s)
+            1: StandAlone 16.8.0 - "/root/.vscode/extensions/ms-dotnettools.csharp-1.23.9/.omnisharp/1.37.6/omnisharp/.msbuild/Current/Bin"
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        MSBUILD_EXE_PATH environment variable set to '/root/.vscode/extensions/ms-dotnettools.csharp-1.23.9/.omnisharp/1.37.6/omnisharp/.msbuild/Current/Bin/MSBuild.exe'
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: StandAlone 16.8.0 - "/root/.vscode/extensions/ms-dotnettools.csharp-1.23.9/.omnisharp/1.37.6/omnisharp/.msbuild/Current/Bin"
+            CscToolExe = csc.exe
+            MSBuildToolsPath = /root/.vscode/extensions/ms-dotnettools.csharp-1.23.9/.omnisharp/1.37.6/omnisharp/.msbuild/Current/Bin
+            CscToolPath = /root/.vscode/extensions/ms-dotnettools.csharp-1.23.9/.omnisharp/1.37.6/omnisharp/.msbuild/Current/Bin/Roslyn
+            BypassFrameworkInstallChecks = true
+            MSBuildExtensionsPath = /root/.vscode/extensions/ms-dotnettools.csharp-1.23.9/.omnisharp/1.37.6/omnisharp/.msbuild
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpFormattingWorkspaceOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.RenameWorkspaceOptionsProvider, Order: 100
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.ImplementTypeWorkspaceOptionsProvider, Order: 110
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.BlockStructureWorkspaceOptionsProvider, Order: 140
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in '/home/jorge/Projetos/Prime'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Could not find any Cake files
+[info]: OmniSharp.MSBuild.ProjectSystem
+        No solution files found in '/home/jorge/Projetos/Prime'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/jorge/Projetos/Prime/Prime.csproj'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in '/home/jorge/Projetos/Prime'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Could not find any CSX files
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location '/home/jorge/Projetos/Prime' on host 39886.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/jorge/Projetos/Prime/Prime.csproj
+It was not possible to find any installed .NET SDKs.
+Install a .NET SDK from:
+  https://aka.ms/dotnet-download
+[warn]: OmniSharp.MSBuild.ProjectManager
+        Failed to load project file '/home/jorge/Projetos/Prime/Prime.csproj'.
+/home/jorge/Projetos/Prime/Prime.csproj(0,0)
+Microsoft.Build.Exceptions.InvalidProjectFileException: The SDK 'Microsoft.NET.Sdk.Web' specified could not be found.  /home/jorge/Projetos/Prime/Prime.csproj
+  at Microsoft.Build.Shared.ProjectErrorUtilities.ThrowInvalidProject (System.String errorSubCategoryResourceName, Microsoft.Build.Shared.IElementLocation elementLocation, System.String resourceName, System.Object[] args) [0x00040] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Shared.ProjectErrorUtilities.VerifyThrowInvalidProject[T1] (System.Boolean condition, System.String errorSubCategoryResourceName, Microsoft.Build.Shared.IElementLocation elementLocation, System.String resourceName, T1 arg0) [0x00003] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Shared.ProjectErrorUtilities.ThrowInvalidProject[T1] (Microsoft.Build.Shared.IElementLocation elementLocation, System.String resourceName, T1 arg0) [0x00000] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Evaluator`4[P,I,M,D].ExpandAndLoadImportsFromUnescapedImportExpressionConditioned (System.String directoryOfImportingFile, Microsoft.Build.Construction.ProjectImportElement importElement, System.Collections.Generic.List`1[Microsoft.Build.Construction.ProjectRootElement]& projects, Microsoft.Build.BackEnd.SdkResolution.SdkResult& sdkResult, System.Boolean throwOnFileNotExistsError) [0x00309] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Evaluator`4[P,I,M,D].ExpandAndLoadImports (System.String directoryOfImportingFile, Microsoft.Build.Construction.ProjectImportElement importElement, Microsoft.Build.BackEnd.SdkResolution.SdkResult& sdkResult) [0x00027] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Evaluator`4[P,I,M,D].EvaluateImportElement (System.String directoryOfImportingFile, Microsoft.Build.Construction.ProjectImportElement importElement) [0x0000d] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Evaluator`4[P,I,M,D].PerformDepthFirstPass (Microsoft.Build.Construction.ProjectRootElement currentProjectOrImport) [0x000e6] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Evaluator`4[P,I,M,D].Evaluate () [0x00139] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Evaluator`4[P,I,M,D].Evaluate (Microsoft.Build.Evaluation.IEvaluatorData`4[P,I,M,D] data, Microsoft.Build.Construction.ProjectRootElement root, Microsoft.Build.Evaluation.ProjectLoadSettings loadSettings, System.Int32 maxNodeCount, Microsoft.Build.Collections.PropertyDictionary`1[T] environmentProperties, Microsoft.Build.BackEnd.Logging.ILoggingService loggingService, Microsoft.Build.Evaluation.IItemFactory`2[S,T] itemFactory, Microsoft.Build.Evaluation.IToolsetProvider toolsetProvider, Microsoft.Build.Evaluation.ProjectRootElementCacheBase projectRootElementCache, Microsoft.Build.Framework.BuildEventContext buildEventContext, Microsoft.Build.BackEnd.SdkResolution.ISdkResolverService sdkResolverService, System.Int32 submissionId, Microsoft.Build.Evaluation.Context.EvaluationContext evaluationContext, System.Boolean interactive) [0x00047] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project+ProjectImpl.Reevaluate (Microsoft.Build.BackEnd.Logging.ILoggingService loggingServiceForEvaluation, Microsoft.Build.Evaluation.ProjectLoadSettings loadSettings, Microsoft.Build.Evaluation.Context.EvaluationContext evaluationContext) [0x00063] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project+ProjectImpl.ReevaluateIfNecessary (Microsoft.Build.BackEnd.Logging.ILoggingService loggingServiceForEvaluation, Microsoft.Build.Evaluation.ProjectLoadSettings loadSettings, Microsoft.Build.Evaluation.Context.EvaluationContext evaluationContext) [0x00035] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project+ProjectImpl.ReevaluateIfNecessary (Microsoft.Build.BackEnd.Logging.ILoggingService loggingServiceForEvaluation, Microsoft.Build.Evaluation.Context.EvaluationContext evaluationContext) [0x00000] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project+ProjectImpl.ReevaluateIfNecessary (Microsoft.Build.Evaluation.Context.EvaluationContext evaluationContext) [0x00007] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project+ProjectImpl.Initialize (System.Collections.Generic.IDictionary`2[TKey,TValue] globalProperties, System.String toolsVersion, System.String subToolsetVersion, Microsoft.Build.Evaluation.ProjectLoadSettings loadSettings, Microsoft.Build.Evaluation.Context.EvaluationContext evaluationContext) [0x00127] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project..ctor (System.String projectFile, System.Collections.Generic.IDictionary`2[TKey,TValue] globalProperties, System.String toolsVersion, System.String subToolsetVersion, Microsoft.Build.Evaluation.ProjectCollection projectCollection, Microsoft.Build.Evaluation.ProjectLoadSettings loadSettings, Microsoft.Build.Evaluation.Context.EvaluationContext evaluationContext) [0x00073] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project..ctor (System.String projectFile, System.Collections.Generic.IDictionary`2[TKey,TValue] globalProperties, System.String toolsVersion, System.String subToolsetVersion, Microsoft.Build.Evaluation.ProjectCollection projectCollection, Microsoft.Build.Evaluation.ProjectLoadSettings loadSettings) [0x00000] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project..ctor (System.String projectFile, System.Collections.Generic.IDictionary`2[TKey,TValue] globalProperties, System.String toolsVersion, Microsoft.Build.Evaluation.ProjectCollection projectCollection, Microsoft.Build.Evaluation.ProjectLoadSettings loadSettings) [0x00000] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.Project..ctor (System.String projectFile, System.Collections.Generic.IDictionary`2[TKey,TValue] globalProperties, System.String toolsVersion, Microsoft.Build.Evaluation.ProjectCollection projectCollection) [0x00000] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.ProjectCollection.LoadProject (System.String fileName, System.Collections.Generic.IDictionary`2[TKey,TValue] globalProperties, System.String toolsVersion) [0x000f7] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at Microsoft.Build.Evaluation.ProjectCollection.LoadProject (System.String fileName, System.String toolsVersion) [0x00000] in <f7274894ce154696afba1f0ffcd06434>:0 
+  at OmniSharp.MSBuild.ProjectLoader.EvaluateProjectFileCore (System.String filePath, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] projectConfigurationsInSolution) [0x00160] in <ecc03816ab954b569caf0cd018c8f575>:0 
+  at OmniSharp.MSBuild.ProjectLoader.BuildProject (System.String filePath, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] configurationsInSolution) [0x0000d] in <ecc03816ab954b569caf0cd018c8f575>:0 
+  at OmniSharp.MSBuild.ProjectFile.ProjectFileInfo.Load (System.String filePath, OmniSharp.MSBuild.ProjectIdInfo projectIdInfo, OmniSharp.MSBuild.ProjectLoader loader, System.Guid sessionId, OmniSharp.Services.DotNetInfo dotNetInfo) [0x00023] in <ecc03816ab954b569caf0cd018c8f575>:0 
+  at OmniSharp.MSBuild.ProjectManager+<>c__DisplayClass31_0.<LoadProject>b__0 () [0x00000] in <ecc03816ab954b569caf0cd018c8f575>:0 
+  at (wrapper delegate-invoke) System.Func`1[System.ValueTuple`3[OmniSharp.MSBuild.ProjectFile.ProjectFileInfo,System.Collections.Immutable.ImmutableArray`1[OmniSharp.MSBuild.Logging.MSBuildDiagnostic],OmniSharp.MSBuild.Notification.ProjectLoadedEventArgs]].invoke_TResult()
+  at OmniSharp.MSBuild.ProjectManager.LoadOrReloadProject (System.String projectFilePath, System.Func`1[TResult] loader) [0x0001b] in <ecc03816ab954b569caf0cd018c8f575>:0 
+
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Attempted to update project that is not loaded: /home/jorge/Projetos/Prime/Prime.csproj
+[info]: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionService
+        Could not find document for file /home/jorge/Projetos/Prime/Models/ClientePessoaFisica.cs
+[info]: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionService
+        Could not find document for file /home/jorge/Projetos/Prime/Models/ClientePessoaFisica.cs
+Received response for /v2/codestructure but could not find request.
+Received response for /v2/codestructure but could not find request.
+Received response for /v2/codestructure but could not find request.
+Received response for /v2/codestructure but could not find request.
+[info]: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionService
+        Could not find document for file /home/jorge/Projetos/Prime/Models/ClientePessoaJuridica.cs
+[info]: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionService
+        Could not find document for file /home/jorge/Projetos/Prime/Models/ClientePessoaFisica.cs
+Received response for /v2/codestructure but could not find request.
+Received response for /v2/codestructure but could not find request.
